@@ -1,0 +1,7 @@
+.parent-class {
+  font-size: 50px;
+  color: red;
+}
+.parent-class .child-class {
+  margin: 5px;
+}

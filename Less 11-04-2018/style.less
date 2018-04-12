@@ -1,0 +1,15 @@
+
+.parent-class {
+    @size1: size2;
+    @size2: 15px;
+    @color1: blue;
+    @margin1: 5px;
+    font-size: @size;
+    color: red;
+    @size: 50px;
+            .child-class {
+                margin: @margin1;
+                // font-size: @@size1;
+                // margin: @margin1;
+            }
+}
